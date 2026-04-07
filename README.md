@@ -21,7 +21,7 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 <img width="576" height="365" alt="image" src="https://github.com/user-attachments/assets/f4245c26-a2f8-4621-b317-0a2c8049f764" />
  
 # PROGRAM
-
+```
 Router0 Program
 ```
 Click Router 0 and in CLI TYPE THIS 
@@ -61,7 +61,7 @@ Router(config-router)# network 192.168.3.0
 Router(config-router)# network 192.168.4.0 
 Router(config-router)# exit
 ```
-
+```
 Steps to Check the Output:
 
 **1. Verify RIP Routing Table on Routers**
