@@ -25,6 +25,7 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 Router0 Program
 ```
 Click Router 0 and in CLI TYPE THIS 
+```
 Router> enable
 Router# configure terminal 
 Router(config)# interface FastEthernet0/0
@@ -41,8 +42,10 @@ Router(config-router)# network 192.168.1.0
 Router(config-router)# network 192.168.2.0 
 Router(config-router)# exit
 ```
+```
 
 Router1 Program
+```
 ```
 Click Router 1 and in CLI TYPE THIS 
 Router> enable
@@ -60,6 +63,7 @@ Router(config-router)# version 2
 Router(config-router)# network 192.168.3.0
 Router(config-router)# network 192.168.4.0 
 Router(config-router)# exit
+```
 ```
 ```
 Steps to Check the Output:
